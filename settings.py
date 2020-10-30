@@ -1,22 +1,22 @@
 project = {
     ".": {
-        "status": "public",
+        "is_public": True,
         "corner_cases": []
     },
     "pipelines": {
-        "status": "public",
+        "is_public": True,
         "corner_cases": []
     },
     "utils": {
-        "status": "public",
+        "is_public": True,
         "corner_cases": []
     },
     "extractors": {
-        "status": "public",
+        "is_public": True,
         "corner_cases": []
     },
     "models": {
-        "status": "public",
+        "is_public": True,
         "corner_cases": [
             {
                 "script": "registry.py",
@@ -25,11 +25,11 @@ project = {
         ]
     },
     "tables": {
-        "status": "private",
+        "is_public": False,
         "corner_cases": []
     },
     "registries": {
-        "status": "private",
+        "is_public": False,
         "corner_cases": []
     }
 }
