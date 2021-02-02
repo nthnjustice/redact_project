@@ -10,4 +10,4 @@ Modify `settings.py` to indicate which project directories should be included in
 
 1) modify `settings.py` to specify redaction rules for censoring sensitive information
 2) run `python redact.py [relative_path_to_target_directory]`
-3) share zipped copy of converted and redacted target project in the `projects` directory
+3) share zipped copy of converted and redacted target project in the `projects` directory 
